@@ -3,13 +3,26 @@
 @import 'libs.styl'
 @import 'mixins.styl'
 
+@import 'common_styles.styl'
+
+@import 'modules/header.styl'
+
+@import 'modules/footer.styl'
+
+@import 'modules/menu.styl'
+
+@import 'pages/index.styl'
+
+@import 'media.styl'
+
+
 html
 	line-height 1
 	font-size 16px
 
 
 body
-	font-family mainFont
+	font-family: 'Roboto', sans-serif
 
 
 h1,h2,h3,h4,h5,h6
@@ -27,6 +40,7 @@ p
 a
 	text-decoration none
 	color black
+	transition .3s
 
 audio,
 canvas,
@@ -53,28 +67,3 @@ button
 
 *, *:before, *:after
 	box-sizing border-box
-
-
-// Общие стили
-@import 'common_styles.styl'
-
-
-// МОДУЛИ
-// Стили шапки
-@import 'modules/header.styl'
-
-// Стили футера
-@import 'modules/footer.styl'
-
-// Стили меню
-@import 'modules/menu.styl'
-
-
-// СТРАНИЦЫ
-// Стили главной страницы
-@import 'pages/index.styl'
-
-
-// ПРОЧЕЕ
-// Стили медиазапросов
-@import 'media.styl'

@@ -36,5 +36,5 @@ module.exports = function() {
         return $.gulp.src(['./build/static/js/jquery.js', './build/static/js/main.js'])
             .pipe(concat('script.min.js'))
             .pipe($.gulp.dest('./build/static/js/'));
-});
+    });
 };

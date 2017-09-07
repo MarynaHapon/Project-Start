@@ -88,3 +88,6 @@ $ gulp
 ├── /node_modules/                  # Node modules dependencies and packages.
 └── gulpfile.js              # Gulp automatization file.
 ```
+
+##  Starter Kit
+Based on [gulp4start](https://github.com/FARCER/gulp4start)
